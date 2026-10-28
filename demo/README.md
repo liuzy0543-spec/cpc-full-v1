@@ -8,6 +8,8 @@
 | **一体** | [`integrated/`](integrated/RUN.md) | 19 个 skill 从原始图一路跑到 DeepProfiler 特征：CellProfiler 测量 → pycytominer → 分割 → 深度特征 | 2 视野 / 4 细胞 / 1 个化合物 |
 | **embedding** | [`embeddings/`](embeddings/RUN.md) | 4 个 embedding 方法一次调用跑通，并用同一套 benchmark 调度对齐比较 | 8 个细胞 |
 
+| **benchmark 结论** | [`benchmarks/`](benchmarks/RESULTS.md) | 3,857 细胞与 352 子集上的方法排序、与基线（原始像素 / 随机）的差、以及哪些数不能信 | 3,857 / 352 细胞 |
+
 > 本树只带 4 个官方权重方法；7 个方法的完整 demo 在 `cellpainting-claw-v2` 里。
 
 ## 目录
